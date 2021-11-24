@@ -1,0 +1,72 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Tilet Habesha Kemis",
+        "price": 10.99,
+        "image": {
+          "fields": { "file": { "url": "./images/OIP.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Hand Bag",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "./images/Bag.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Masinqo",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "./images/Masinqo.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Mesob",
+        "price": 22.99,
+        "image": { "fields": { "file": { "url": "./images/Crosses.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Netela",
+        "price": 88.99,
+        "image": { "fields": { "file": { "url": "./images/Netela.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Tilf Habesha Kemis",
+        "price": 32.99,
+        "image": {
+          "fields": { "file": { "url": "./images/TilfHabeshaKemis.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Kirar",
+        "price": 45.99,
+        "image": { "fields": { "file": { "url": "./images/Kirar.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Scarf",
+        "price": 33.99,
+        "image": { "fields": { "file": { "url": "./images/Scarf.jpg" } } }
+      }
+    }
+  ]
+}

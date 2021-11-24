@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <!--custom css-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <title>Shopping Cart</title>
+    <style></style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg px-4">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/Ethiop.PNG" alt="" height="50" width="350"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#myNav"
+        >
+          <span class="toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNav">
+          <ul class="navbar-nav mx-auto text-capitalize">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#store">store</a>
+            </li>
+          </ul>
+          <div class="nav-info-items d-none d-lg-flex">
+            <!-- one section-->
+            <div
+              class="
+                nav-info
+                align-items-center
+                d-flex
+                justify-content-between
+                mx-lg-5
+              "
+            >
+              <span class="info-icon mx-lg-3"
+                ><i class="fas fa-phone"></i
+              ></span>
+              <p class="mb-0">+251 93 438 7123</p>
+            </div>
+            <!-- end of one section -->
+            <!-- one section -->
+            <div class="cart-btn">
+              <span class="nav-icon">
+                <i class="fas fa-cart-plus"></i>
+              </span>
+              <div class="cart-items">0</div>
+            </div>
+            <!-- end of one section -->
+          </div>
+        </div>
+      </nav>
+      <!-- end of nav -->
+      <!-- banner  -->
+
+      <div class="container-fluid">
+        <div class="row max-height justify-content-center align-items-center">
+          <div class="col-10 mx-auto banner text-center">
+            <h1 class="text-capitalize">
+              <strong class="banner-title"
+                >Welcome to Ethiopian Cultural Store</strong
+              >
+            </h1>
+            <a href="#store" class="btn banner-link">Explore</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--end of header-->
+
+    <!--about us-->
+    <section class="about py-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto col-md-6 my-5">
+            <h1 class="text-capitalize">
+              about <strong class="banner-title">us</strong>
+            </h1>
+            <p class="my-4 text-muted w-75">
+              This is an Ethiopian Cultural shopping cart that keeps record of 
+              items such as cultural dresses, musical insturments, and so on a 
+              buyer has picked up from the online store. This eCommerce shopping
+              cart enables consumers to select products, review what they selected, 
+              make modifications or add extra items if needed.
+            </p>
+          </div>
+          <div class="col-10 mx-auto col-md-6 align-self-center my-5">
+            <div class="about-img__container">
+              <img src="./images/Mesob.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of about us -->
+
+    <!-- store -->
+    <section id="store" class="store py-5">
+      <div class="container">
+        <!-- section title -->
+        <div class="row">
+          <div class="col-10 mx-auto col-sm-6 text-center">
+            <h1 class="text-capitalize">
+              our <strong class="banner-title">store</strong>
+            </h1>
+          </div>
+        </div>
+        <!-- end of section title -->
+        
+    <!--store items-->
+    <section class="products" id="products">
+      <div class="products-center"></div>
+    </section>
+    <!--end of products-->
+
+    <!--cart-->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>Your Cart</h2>
+        <div class="cart-content">
+          <!--cart item-->
+          <!-- <div class="cart-item">
+            
+          </div> -->
+          <!-- end of cart item-->
+        </div>
+        <div class="cart-footer">
+          <h3>Your Total : $ <span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">Clear Cart</button>
+        </div>
+      </div>
+    </div>
+    <!--end of cart-->
+    <!--app js-->
+    <script src="app.js"></script>
+    <script src="bootstrap.min.js"></script>
+  </body>
+</html>
